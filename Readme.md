@@ -22,4 +22,5 @@
     - How to use console.log
 
 
+## Variables
 
