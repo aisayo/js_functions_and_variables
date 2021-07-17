@@ -32,8 +32,6 @@
     - Can optionally initialize with a value
     - Side effects: not block scoped, can be redeclared, hoisting
     - Not used in modern scripts
-    - [MDN Var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
-    - [The Old Var](https://javascript.info/var)
 - `let`:
     - Can optionally initialize with a value
     - Block scoped
@@ -152,4 +150,9 @@ Arrow functions: shorter syntax
     - When a function is called it is added to the top of the stack
     - Once the function is returned, it will be ‘popped’ off the stack
 - ‘Maximum call stack size exceeded’ error (recursion?)
+
+#### Resources
+    - [The Old Var](https://javascript.info/var)
+    - [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+    
 
