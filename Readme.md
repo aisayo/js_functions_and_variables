@@ -53,7 +53,8 @@
 - The building blocks of JavaScript applications
 - Functions are objects
 - Allow us to organize behaviors into reusable pieces
-- Ways to define a function: 
+
+#### Ways to define a function: 
 
 ```
 Function declaration: we use the keyword `function`:
