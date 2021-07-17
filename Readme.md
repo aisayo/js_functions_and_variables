@@ -155,6 +155,3 @@ Arrow functions: shorter syntax
 - [The Old Var](https://javascript.info/var)
 - [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 - [The Ultimate Guide to JavaScript Variables](https://www.javascripttutorial.net/javascript-variables/)
-
-
-
