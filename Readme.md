@@ -25,16 +25,6 @@
 ## Variables
 - Allows us to store and label values
 
-#### Variable Scope
-
-- Can exist in 3 different scopes: 
-    - global scope:
-        - Anything defined outside of a function
-    - function scope
-        - Variable declared inside of a function
-    - block scope was introduced in ES6
-        - Variable defined inside of a block
-        - A block is anything with opening and closing curly braces ``` if () {} ```
 
 #### Defining Variables
 
@@ -54,6 +44,17 @@
     - Block scoped
     - Can not be redeclared
 
+#### Variable Scope
+
+- Can exist in 3 different scopes: 
+    - global scope:
+        - Anything defined outside of a function
+    - function scope
+        - Variable declared inside of a function
+    - block scope was introduced in ES6
+        - Variable defined inside of a block
+        - A block is anything with opening and closing curly braces ``` if () {} ```
+        
 ## Functions
 
 - The building blocks of JavaScript applications
