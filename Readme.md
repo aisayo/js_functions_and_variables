@@ -152,7 +152,9 @@ Arrow functions: shorter syntax
 - ‘Maximum call stack size exceeded’ error (recursion?)
 
 #### Resources
-    - [The Old Var](https://javascript.info/var)
-    - [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-    
+- [The Old Var](https://javascript.info/var)
+- [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+- [The Ultimate Guide to JavaScript Variables](https://www.javascripttutorial.net/javascript-variables/)
+
+
 
