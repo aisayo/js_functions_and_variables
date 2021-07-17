@@ -53,10 +53,11 @@
 - The building blocks of JavaScript applications
 - Allow us to organize behaviors into reusable pieces
 - To define a function, we use the keyword `function`
-    ```function greeting() {
 
-    }```
-
+```
+    function greeting() {
+    }
+```
 
 
 
