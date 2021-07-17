@@ -24,7 +24,26 @@
 
 ## Variables
 - A variable allows us to store and label values
-- There are three ways to define variables:
-    - `var`, `let` and `const`
-    
+- There are three ways to define variables: `var`, `let` and `const`
+- `var`: 
+    - Can optionally initialize to a value
+    - Side effects: not block scoped, can be redeclared, hoisting
+    - Not used in modern scripts
+    - [MDN Var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+    - [The Old Var](https://javascript.info/var)
+- `let`:
+    - Can optionally initialize to a value
+    - Block scoped
+    - 
+- A variable can exist in 3 different scopes: 
+    - global scope:
+        - Anything defined outside of a function
+    - function scope
+        - Variable declared inside of a function
+    - block scope was introduced in ES6
+        - Variable defined inside of a block
+        - A block is anything with opening and closing curly braces ``` if () {} ```
+
+
+
 

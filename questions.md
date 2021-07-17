@@ -1,0 +1,1 @@
+- what happens if we initialize a variable without a declaration 
