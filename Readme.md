@@ -118,17 +118,16 @@ Arrow functions: shorter syntax
     // name is a parameter. It acts as a placeholder for a name value to be passed in
     
 ```
+- Argument is a value that is passed to function during execution
 ```
    sayName("Bob")
 
    // 'Bob' is an argument. It is the value replacing the placeholder 'name'
-   
+
 ```
-- Argument is a value that is passed to function during execution
 
 #### High Order Functions
 - A function that takes in a function as an argument or returns a function
-
 
 #### First Class Citizens
 - Functions are first class citizens
@@ -138,3 +137,10 @@ Arrow functions: shorter syntax
     - Assign them as object properties (methods)
     - Pass them as arguments
     - eReturn them from other functions
+
+#### Callstack
+- A hierarchy and order of operations for function calls
+- Last In, First Out (LIFO)
+- Callstack is synchronous
+- When a function returns, it is removed from the call stack
+- 
