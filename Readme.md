@@ -60,19 +60,35 @@
 #### Ways to define a function: 
 
 ```
-Function declaration: we use the keyword `function`:
+Function declaration: we use the keyword `function`
 
     function helloWorld() {
         // logic
     }
+
 ```
 
 ```
-Function expression: stored inside a variable:
+Function expression: stored inside a variable, defined as an anonymous function
 
     const helloWorld = function() {
         // logic
     }
+
+```
+
+```
+Arrow functions: shorter syntax 
+
+    const helloWorld = () => 'Hello World'
+
+    // if return statement is more than 1 line
+    
+    const helloWorld = () => {
+        let statement = "Hello World"
+        return statement
+    }
+
 ```
 - 
 
