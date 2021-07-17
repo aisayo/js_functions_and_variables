@@ -24,6 +24,9 @@
 
 ## Variables
 - Allows us to store and label values
+
+#### Variable Scope
+
 - Can exist in 3 different scopes: 
     - global scope:
         - Anything defined outside of a function
@@ -83,7 +86,7 @@ Arrow functions: shorter syntax
     const helloWorld = () => 'Hello World'
 
     // if return statement is more than 1 line
-    
+
     const helloWorld = () => {
         let statement = "Hello World"
         return statement
@@ -92,6 +95,18 @@ Arrow functions: shorter syntax
 ```
 - 
 
+#### Function Reference vs Execution
 
+- Function reference is a copy of the function. Returned if function is not invoked
+- Function execution is when the function is invoked 
+
+```
+    function helloWorld(){
+        return 'Hello World'
+    }
+
+    helloWorld // returns a function reference 
+    helloWorld() // returns 'Hello World'
+```
 
 
