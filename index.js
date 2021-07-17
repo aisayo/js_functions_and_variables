@@ -24,7 +24,49 @@
 // define 'fahrenheit' again using 'const' and set it to 100, what happens?
     const fahrenheit = 100
 
-// Variable Scopes
+// Defining functions
+
+// define a function 'printTemp' using function declaration that returns 'Today's temperature is 90 degrees fahrenheit'
+
+    function printTemp(){
+        return 'Todays temperature is 90 degrees fahrenheit'
+    }
+// define a function 'printTemp' using function expression that returns 'Today's temperature is 90 degrees fahrenheit'
+
+    const printTemp = function(){
+        return 'Todays temperature is 90 degrees fahrenheit'
+    }
+// define a function 'printTemp' using arrow functions that returns 'Today's temperature is 90 degrees fahrenheit'
+
+    const printTemp = () => {
+        return 'Todays temperature is 90 degrees fahrenheit'
+    }
+    
+// Executing functions vs reference
+
+printTemp // will print a reference to the function
+printTemp() // will call function and evaluate logic
+
+
+// Parameters vs Arguments
+
+// Using the printTemp function again, let's pass in a parameter 'temperature'
+
+function printTemp(temperature){
+    return "Today's temperature is 90 degrees"
+}
+
+// How can we use the paramater to make our code more dynamic?
+
+function printTemp(temperature){
+    return `Today's temperature is ${temperature} degrees fahrenheit`
+}
+
+// now invoke the function and pass in an argument
+
+printTemp(100)
+
+// Scopes    
 
 // Global Scope
 
@@ -33,21 +75,17 @@ let globalVariable = "I am in the global scope";
 // Function Scope
 
 function whatsTheScope() {
-  let functionVariable = "I am inside of a function";
-}
+  let functionVariable = "I am inside of a function";  
+}  
 
 // // Block Scope
 
 function whatsTheScope() {
   if (true) {
-    let blockVariable = "I am inside of a block";
-  }
-}
+    let blockVariable = "I am inside of a block";  
+  }  
+}  
 
-// // Defining functions
-
-// // Executing functions
-
-// // Call Stack and Job Queue
+// Call Stack and Job Queue
 
 
