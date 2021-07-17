@@ -32,7 +32,9 @@
     - block scope was introduced in ES6
         - Variable defined inside of a block
         - A block is anything with opening and closing curly braces ``` if () {} ```
-- Three ways to define variables: `var`, `let` and `const`
+
+#### Defining Variables
+
 - `var`: 
     - Can optionally initialize with a value
     - Side effects: not block scoped, can be redeclared, hoisting
@@ -50,6 +52,7 @@
     - Can not be redeclared
 
 ## Functions
+
 - The building blocks of JavaScript applications
 - Functions are objects
 - Allow us to organize behaviors into reusable pieces
