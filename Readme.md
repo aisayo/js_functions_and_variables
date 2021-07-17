@@ -51,13 +51,26 @@
 
 ## Functions
 - The building blocks of JavaScript applications
+- Functions are objects
 - Allow us to organize behaviors into reusable pieces
-- To define a function, we use the keyword `function`
+- Ways to define a function: 
 
 ```
-    function greeting() {
+Function declaration: we use the keyword `function`:
+
+    function helloWorld() {
+        // logic
     }
 ```
+
+```
+Function expression: stored inside a variable:
+
+    const helloWorld = function() {
+        // logic
+    }
+```
+- 
 
 
 
