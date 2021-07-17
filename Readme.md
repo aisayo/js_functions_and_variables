@@ -8,7 +8,9 @@
     - "First class citizens"
     - Parameters vs arguments
 - Understanding variables:
-    - 
+    - What are variables? 
+    - How to define variables
+    - When to use var, let, and const
 
 
 
