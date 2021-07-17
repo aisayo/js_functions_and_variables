@@ -54,7 +54,7 @@
     - block scope was introduced in ES6
         - Variable defined inside of a block
         - A block is anything with opening and closing curly braces ``` if () {} ```
-        
+
 ## Functions
 
 - The building blocks of JavaScript applications
@@ -140,8 +140,15 @@ Arrow functions: shorter syntax
     - eReturn them from other functions
 
 #### Callstack
-- A hierarchy and order of operations for function calls
-- Last In, First Out (LIFO)
-- Callstack is synchronous
-- When a function returns, it is removed from the call stack
-- 
+- Importance:
+    - Fundamental to how js works
+    - Can help with debugging
+- What is a callstack?
+    - A hierarchy and order of operations for function calls
+    - Like a 'to-do' list
+- How does it work? 
+    - JavaScript is single threaded, meaning one thing happens at a time(synchronous)
+    - Last In, First Out (LIFO)
+    - When a function is called it is added to the top of the stack
+    - Once the function is returned, it will be ‘popped’ off the stack
+- ‘Maximum call stack size exceeded’ error
