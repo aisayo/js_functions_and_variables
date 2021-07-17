@@ -93,7 +93,6 @@ Arrow functions: shorter syntax
     }
 
 ```
-- 
 
 #### Function Reference vs Execution
 
@@ -109,4 +108,33 @@ Arrow functions: shorter syntax
     helloWorld() // returns 'Hello World'
 ```
 
+#### Parameters vs Arguments
+- Parameter is defined in function declaration as a placeholder for the value that will be passed in during execution
+```
+    function sayName(name){
+        // do something with name
+    }
 
+    // name is a parameter. It acts as a placeholder for a name value to be passed in
+    
+```
+```
+   sayName("Bob")
+
+   // 'Bob' is an argument. It is the value replacing the placeholder 'name'
+   
+```
+- Argument is a value that is passed to function during execution
+
+#### High Order Functions
+- A function that takes in a function as an argument or returns a function
+
+
+#### First Class Citizens
+- Functions are first class citizens
+- What this means is:
+    - We can store them as variables
+    - Use them in arrays
+    - Assign them as object properties (methods)
+    - Pass them as arguments
+    - eReturn them from other functions
