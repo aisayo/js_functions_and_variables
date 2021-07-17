@@ -152,3 +152,4 @@ Arrow functions: shorter syntax
     - When a function is called it is added to the top of the stack
     - Once the function is returned, it will be ‘popped’ off the stack
 - ‘Maximum call stack size exceeded’ error (recursion?)
+
