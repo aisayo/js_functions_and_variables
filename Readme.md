@@ -3,14 +3,17 @@
 ## Goals:
 - Functions dive deep: 
     - What are functions?
-    - Why do we use them?
-    - How to define functions
+    - Different ways to define a function
+    - Function reference vs execution
+    - What are high order functions?
     - "First class citizens"
     - Parameters vs arguments
 - Understanding variables:
     - What are variables? 
     - How to define variables
     - When to use var, let, and const
+- What is the scope?
+    - Understand variable scopes
 
 
 
