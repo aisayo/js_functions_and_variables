@@ -25,6 +25,6 @@
 ## Variables
 - A variable allows us to store and label values
 - There are three ways to define variables:
-    - `var` 
-        - 
+    - `var`, `let` and `const`
+    
 
